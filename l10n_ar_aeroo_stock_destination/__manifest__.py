@@ -18,14 +18,13 @@
 #
 ##############################################################################
 {
-    'name': 'Argentinian Like Stock Picking Aeroo Report',
-    'version': '11.0.1.3.0',
-    'category': 'Localization/Argentina',
-    'sequence': 14,
-    'author': 'ADHOC SA',
-    'website': 'www.adhoc.com.ar',
+    'name': 'Aeroo Stock report Origin & Destination',
+    'summary': """ Adds the fields origin and destination 
+        of the internal transfer to aeroo report""",
+    'author': 'Calyx Servicios S.A., Odoo Community Association (OCA)',
+    'maintainers': ['Paradiso Cristian'],
+    'website': 'http://odoo.calyx-cloud.com.ar/',
     'license': 'AGPL-3',
-    'summary': '',
     'depends': [
         'report_extended_stock',
         'l10n_ar_aeroo_base',
