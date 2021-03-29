@@ -9,13 +9,20 @@
 
     'website': 'http://odoo.calyx-cloud.com.ar/',
     'license': 'AGPL-3',
-
-    'category': 'Technical Settings',
-    'version': '11.0.1.0.0',
-
-    # see https://odoo-community.org/page/development-status
-    'development_status': 'Production/Stable',
-
+    'depends': [
+        'l10n_ar_aeroo_stock',
+    ],
+    'external_dependencies': {
+    },
+    'data': [
+        'report/report.xml',
+    ],
+    'demo': [
+    ],
+    'test': [
+    ],
+    'installable': True,
+    'auto_install': False,
     'application': False,
     'installable': True,
     
