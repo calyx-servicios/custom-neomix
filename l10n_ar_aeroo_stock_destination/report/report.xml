@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
         <record id="l10n_ar_aeroo_stock.action_aeroo_report_ar_stock_picking" model="ir.actions.report">
-            <field name="report_file">l10n_ar_aeroo_stock_destination/report/einvoice_with_footer.odt</field>
+            <field name="report_file">l10n_ar_aeroo_stock_destination/report/stock_picking.odt</field>
         </record>
 </odoo>
