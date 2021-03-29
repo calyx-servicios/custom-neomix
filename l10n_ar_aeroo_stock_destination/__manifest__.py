@@ -26,12 +26,24 @@
     'website': 'http://odoo.calyx-cloud.com.ar/',
     'license': 'AGPL-3',
     'depends': [
-        'report_extended_stock',
-        'l10n_ar_aeroo_base',
-        'l10n_ar_account',
+        'l10n_ar_aeroo_stock',
     ],
     'external_dependencies': {
     },
+    'data': [
+        'report/report.xml',
+    ],
+    'demo': [
+    ],
+    'test': [
+    ],
+    'installable': True,
+    'auto_install': False,
+    'application': False,
+    'installable': True,
+    
+    'depends': ['l10n_ar_aeroo_stock'],
+
     'data': [
         'report_configuration_defaults_data.xml',
         'report.xml',
