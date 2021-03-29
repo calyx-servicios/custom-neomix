@@ -45,9 +45,7 @@
     'depends': ['l10n_ar_aeroo_stock'],
 
     'data': [
-        'report_configuration_defaults_data.xml',
-        'report.xml',
-        'views/res_company.xml',
+        'report/report.xml',
     ],
     'demo': [
     ],
