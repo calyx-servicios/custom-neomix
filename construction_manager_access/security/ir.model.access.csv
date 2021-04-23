@@ -16,9 +16,8 @@ product_uom construction_access,product.uom construction_access,product.model_pr
 
 delivery_carrier construction_access,delivery.carrier construction_access,delivery.model_delivery_carrier,construction_manager_access.group_construction_manager,1,0,0,0
 
-purchase_request construction_access,purchase.request construction_access,purchase_request.model_purchase_request,construction_manager_access.group_construction_manager,1,1,1,1
+purchase_request construction_access,purchase.request construction_access,purchase_request.model_purchase_request,construction_manager_access.group_construction_manager,1,1,1,0
 
 account_analytic_account construction_access,account.analytic.account construction_access,analytic.model_account_analytic_account,construction_manager_access.group_construction_manager,1,0,0,0
 
 res_partner construction_access,res.partner construction_access,base.model_res_partner,construction_manager_access.group_construction_manager,1,0,0,0
-

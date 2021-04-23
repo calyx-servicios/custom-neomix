@@ -4,13 +4,17 @@
         <record id="group_construction_manager" model="res.groups">
             <field name="name">Construction Manager</field>
             <field name="category_id" ref="base.module_category_accounting_and_finance"/>
-            <field name="implied_ids" eval="[(4, ref('project.group_project_user'))]"/>
-            <field name="implied_ids" eval="[(4, ref('hr_attendance.group_hr_attendance_manager'))]"/>
-            <field name="implied_ids" eval="[(4, ref('hr_timesheet.group_timesheet_manager'))]"/>
-            <field name="implied_ids" eval="[(4, ref('hr_expense.group_hr_expense_user'))]"/>
+            <field name="implied_ids" eval="[(4, ref('hr_expense.group_hr_expense_user)),(4, ref('project.group_project_user')),(4, ref('stock.group_stock_user')),(4, ref('purchase_request.group_purchase_request_user'))]"/>
         </record>
         <record id="stock.group_stock_manager" model="res.groups">
             <field name="implied_ids" eval="[(3, ref('account.group_account_invoice'))]"/>
+        </record>
+        <record id="construction_purchase_request" model="ir.rule">
+            <field name="model_id" ref="model_purchase_request" />
+            <field name="name">Purchase Request Delete</field>
+            <field name="domain_force">[('state', '!=','draft')]</field>
+            <field name="groups" eval="[(4,ref('group_construction_manager'))]"/>
+            <field name="perm_unlink" eval="True"/>
         </record>
     </data>
 </odoo>
