@@ -4,7 +4,7 @@
         <record id="group_construction_manager" model="res.groups">
             <field name="name">Construction Manager</field>
             <field name="category_id" ref="base.module_category_accounting_and_finance"/>
-            <field name="implied_ids" eval="[(4, ref('hr_expense.group_hr_expense_user))]"/>
+            <field name="implied_ids" eval="[(4, ref('hr_expense.group_hr_expense_user')), (4, ref('project.group_project_user')), (4, ref('stock.group_stock_user')), (4, ref('purchase_request.group_purchase_request_user'))]"/>
         </record>
         <record id="stock.group_stock_manager" model="res.groups">
             <field name="implied_ids" eval="[(3, ref('account.group_account_invoice'))]"/>
