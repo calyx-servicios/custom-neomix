@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_sale_aeroo_report_user,sale.report.user,model_l10n_ar_aeroo_sale_order_number,sales_team.group_sale_salesman_all_leads,1,0,0,0
-access_sale_aeroo_report_manager,sale.report.manager,model_l10n_ar_aeroo_sale_order_number,sales_team.group_sale_manager,1,1,1,1

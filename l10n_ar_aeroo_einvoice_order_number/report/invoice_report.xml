@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo noupdate="1">
-    <record id="l10n_ar_aeroo_einvoice.action_aeroo_report_ar_einvoice" model="ir.actions.report">
-        <field name="report_file">l10n_ar_aeroo_einvoice_order_number/report/einvoice.odt</field>
-    </record>
-</odoo>
