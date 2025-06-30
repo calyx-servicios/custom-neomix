@@ -1,0 +1,6 @@
+<odoo noupdate="1">
+    <record model="account.tax.group" id="tax_group_national_taxes">
+        <field name="name">National Taxes</field>
+        <field name="l10n_ar_tribute_afip_code">1</field>
+    </record>
+</odoo>
