@@ -9,7 +9,7 @@
     "website": "https://odoo.calyx-cloud.com.ar/",
     "license": "AGPL-3",
     "category": "Account",
-    "version": "11.0.2.0.0",
+    "version": "11.0.3.0.0",
     "application": False,
     'depends': [
                 'l10n_ar_afipws',
@@ -17,6 +17,8 @@
                 ],
     'data': [
         # 'views/res_config_settings.xml',
-        'views/view_move_form.xml'
+        'views/report_invoice.xml',
+        'views/view_move_form.xml',
+        'data/account_tax_group_data.xml'
     ],
 }
